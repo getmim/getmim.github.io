@@ -1,0 +1,7 @@
+title: "Mim: PHP Framework"
+description: Modular PHP Framework
+baseurl: ""
+url: ""
+theme: minima
+plugins:
+  - jekyll-feed
