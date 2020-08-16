@@ -43,15 +43,51 @@ class Installer
         if(strtolower(substr($copy,0,1)) !== 'y')
             return false;
 
-        $default = $this->getBashCompletionDir();
-        $target = readline('Where to put the autocompleter? ('.$default.'): ');
+        $opts = ['bash','zsh'];
+        $optd = $opts[0];
+
+        $shell = $_SERVER['SHELL'] ?? 'bash';
+        if($shell){
+            $shell = basename($shell);
+            if(in_array($shell, $opts))
+                $optd = $shell;
+        }
+
+        foreach($opts as $i => $opt){
+            if($optd !== $opt)
+                continue;
+
+            $opts[$i] = '[' . $opt . ']';
+        }
+
+        $term = readline('What is your terminal app? (' . implode('/', $opts) . '): ');
+        if(!$term)
+            $term = $optd;
+
+        $term = substr(strtolower($term), 0, 1);
+
+        $default = $this->getBashCompletionDir($term);
+        $target = readline('Where to put the autocompleter? ' . ($default?'('.$default.')':'') . ': ');
         if(!$target)
             $target = $default;
+        if(!$target)
+            return $this->echo('No autocomplete file copied');
+        
         $target = chop($target, '/') . '/';
 
         // copy autocomplete
-        $this->echo('Creating bash autocomplete symlink');
-        $cmd = 'sudo ln -s ' . $this->here . '/etc/bash/au.sh '.$target.'/mim';
+        $this->echo('Copying mim autocompleter');
+
+        if($term === 'b')
+            $cmd = 'sudo ln -s ' . $this->here . '/etc/bash/au.sh ' . $target . '/mim';
+        else{
+            $cmd = 'sudo ln -s ' . $this->here . '/etc/zsh/au.sh ' . $target . '/_mim';
+            $this->echo('Please put below script to your ~/.zshrc file if you dont have any');
+            $this->echo('--------------------');
+            $this->echo('autoload -U compinit');
+            $this->echo('compinit');
+            $this->echo('--------------------');
+        }
         $this->run($cmd);
 
         $this->echo('Autocomplete successfully installed');
@@ -138,10 +174,19 @@ class Installer
         Fs::write($this->here . '/etc/modules.php', $tx);
     }
 
-    private function getBashCompletionDir(): string{
-        $target = '/etc/bash_completion.d';
-        if($this->osIs('mac'))
-            $target = '/usr/local/etc/bash_completion.d';
+    private function getBashCompletionDir(string $terminal): string{
+        $target = '';
+
+        if($terminal === 'b'){
+            $target = '/etc/bash_completion.d';
+            if($this->osIs('mac'))
+                $target = '/usr/local/etc/bash_completion.d';
+
+        }elseif($terminal === 'z'){
+            $target = '/share/zsh/site-functions';
+            if($this->osIs('mac'))
+                $target = '/usr/local/share/zsh/site-functions';
+        }
 
         return $target;
     }
