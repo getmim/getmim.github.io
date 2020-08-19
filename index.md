@@ -81,7 +81,7 @@ layout: page
         1. [Admin](/modules/product/admin) ( admin-product )
         1. [Site](/modules/product/site) ( site-product )
         1. Children
-            1. [Category](/modules/product/children/stat/) ( product-stat )
+            1. [Stat](/modules/product/children/stat/) ( product-stat )
             1. [Category](/modules/product/children/category/) ( product-category )
                 1. [Admin](/modules/product/children/category/admin/) ( admin-product-category )
                 1. [Site](/modules/product/children/category/site/) ( site-product-category )
@@ -92,6 +92,7 @@ layout: page
                         1. [Admin](/modules/product/children/category/children/icon/admin/) ( admin-product-category-icon )
                     1. [Image](/modules/product/children/category/children/image/) ( product-category-image )
                         1. [Admin](/modules/product/children/category/children/image/admin/) ( admin-product-category-image )
+            1. [Collateral](/modules/product/children/collateral/) ( product-collateral )
     1. [Profile](/modules/profile/) ( profile )
         1. [Admin](/modules/profile/admin/) ( admin-profile )
         1. [API](/modules/profile/api/) ( api-profile )
