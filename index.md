@@ -93,6 +93,7 @@ layout: page
                     1. [Image](/modules/product/children/category/children/image/) ( product-category-image )
                         1. [Admin](/modules/product/children/category/children/image/admin/) ( admin-product-category-image )
             1. [Collateral](/modules/product/children/collateral/) ( product-collateral )
+                1. [Admin](/modules/product/children/collateral/admin/) ( admin-product-collateral )
     1. [Profile](/modules/profile/) ( profile )
         1. [Admin](/modules/profile/admin/) ( admin-profile )
         1. [API](/modules/profile/api/) ( api-profile )
