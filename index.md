@@ -81,7 +81,6 @@ layout: page
         1. [Admin](/modules/product/admin) ( admin-product )
         1. [Site](/modules/product/site) ( site-product )
         1. Children
-            1. [Stat](/modules/product/children/stat/) ( product-stat )
             1. [Category](/modules/product/children/category/) ( product-category )
                 1. [Admin](/modules/product/children/category/admin/) ( admin-product-category )
                 1. [Site](/modules/product/children/category/site/) ( site-product-category )
@@ -94,6 +93,8 @@ layout: page
                         1. [Admin](/modules/product/children/category/children/image/admin/) ( admin-product-category-image )
             1. [Collateral](/modules/product/children/collateral/) ( product-collateral )
                 1. [Admin](/modules/product/children/collateral/admin/) ( admin-product-collateral )
+            1. [Seen](/modules/product/children/seen/) ( product-last-seen )
+            1. [Stat](/modules/product/children/stat/) ( product-stat )
     1. [Profile](/modules/profile/) ( profile )
         1. [Admin](/modules/profile/admin/) ( admin-profile )
         1. [API](/modules/profile/api/) ( api-profile )
@@ -217,6 +218,7 @@ layout: page
         1. Authorizer
             1. [Basic](/modules/lib-user/authorizer/lib-user-auth-basic/) ( lib-user-auth-basic )
             1. [Cookie](/modules/lib-user/authorizer/lib-user-auth-cookie/) ( lib-user-auth-cookie )
+                1. [Site](/modules/lib-user/authorizer/lib-user-auth-cookie/site-user-login) ( site-user-login )
             1. [JWT](/modules/lib-user/authorizer/lib-user-auth-jwt/) ( lib-user-auth-jwt )
             1. [OAuth](/modules/lib-user/authorizer/lib-user-auth-oauth/) ( lib-user-auth-oauth )
             1. [OAuth2](/modules/lib-user/authorizer/lib-user-auth-oauth2/) ( lib-user-auth-oauth2 )
