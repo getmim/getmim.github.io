@@ -174,6 +174,25 @@ $where = [
 //      )
 ```
 
+## Unescape
+
+Jika membutuhkan field name yang sudah di-*escape* atau tidak ingin di-*escape*, bisa
+menggunakan prefix '?' pada field name:
+
+```php
+$where = [
+    '?`user`' => 1,
+    '?JSON_EXTRACT(`price`, \'$.anually\')' => ['__op', '!=', '']
+];
+// `user` = 1
+//      AND (
+//          JSON_EXTRACT(`price`, '$.anually') != ''
+//      )
+```
+
+Sebagai catatan, penggunaan unescape pada field tidak akan memparse tabel dan nama database
+sehingga nilai dari tabel dan database *mungkin* perlu ditambahkan pada nilai field.
+
 ## Dari Tabel Lain
 
 Memungkinkan juga mengambil data where dari tabel lain jika informasi
