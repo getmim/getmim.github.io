@@ -238,6 +238,7 @@ layout: page
             1. [Last Seen](/modules/lib-user/other/lib-user-last-seen/) ( lib-user-last-seen )
             1. [User Perm](/modules/lib-user/other/lib-user-perm/) ( lib-user-perm )
                 1. [Admin](/modules/lib-user/other/lib-user-perm/admin/) ( admin-user-perm )
+            1. [Recovery](/modules/lib-user/other/lib-user-recovery/) ( lib-user-recovery )
     1. [Validator](/modules/lib-validator/) ( lib-validator )
         1. [Rules](/modules/lib-validator/rules/)
             1. [Custom Rule](/modules/lib-validator/rules/custom/)
