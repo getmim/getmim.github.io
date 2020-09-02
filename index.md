@@ -93,6 +93,7 @@ layout: page
                         1. [Admin](/modules/product/children/category/children/image/admin/) ( admin-product-category-image )
             1. [Collateral](/modules/product/children/collateral/) ( product-collateral )
                 1. [Admin](/modules/product/children/collateral/admin/) ( admin-product-collateral )
+            1. [Saved](/modules/product/children/saved/) ( product-saved )
             1. [Seen](/modules/product/children/seen/) ( product-last-seen )
             1. [Stat](/modules/product/children/stat/) ( product-stat )
     1. [Profile](/modules/profile/) ( profile )
@@ -168,7 +169,10 @@ layout: page
         1. [IPAPI](/modules/lib-ip-locator/lib-ip-ipapi/) ( lib-ip-ipapi )
     1. [JWT](/modules/lib-jwt/) ( lib-jwt )
     1. [Locale](/modules/lib-locale/) ( lib-locale )
-    1. [Mailer](/modules/lib-mailer/) ( lib-mailer )
+    1. [Mail](/modules/lib-mail/) ( lib-mail )
+        1. [PHPMailer](/modules/lib-mail/sender/phpmailer/) ( lib-mail-phpmailer )
+        1. Obsolete
+            1. [Mailer](/modules/lib-mailer/) ( lib-mailer )
     1. [Markdown](/modules/lib-markdown/) ( lib-markdown )
     1. [Media](/modules/lib-media/) ( lib-media )
         1. [MediaSizer](/modules/lib-media/media-sizer/) ( media-sizer )
@@ -233,6 +237,7 @@ layout: page
                     1. [Phone](/modules/lib-user/handler/lib-user-main/children/lib-user-main-phone/) ( lib-user-main-phone )
                     1. [Type](/modules/lib-user/handler/lib-user-main/children/lib-user-main-type/) ( lib-user-main-type )
         1. [Site](/modules/lib-user/site/) ( site-user )
+            1. [Register](/modules/lib-user/site/children/site-user-register) ( site-user-register )
         1. Other
             1. [Action Log](/modules/lib-user/other/lib-action-log/) ( lib-action-log )
             1. [Last Seen](/modules/lib-user/other/lib-user-last-seen/) ( lib-user-last-seen )

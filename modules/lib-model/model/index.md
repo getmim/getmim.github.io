@@ -31,7 +31,18 @@ class User extends \Mim\Model
     protected static $chains = [
         'label' => [
             'model' => 'LibUser\\Model\\UserLabel',
-            'field' => 'id'
+
+            // field penghubung di tabel user_label
+            'field' => 'id',
+
+            // field penghubung di tabel ini, nilai
+            // default adalah nama field itu sendiri.
+            'self'  => 'label', // optional
+
+            // type join yang akan digunakan, nilai
+            // default adalah `LEFT`. Nilai ini menerima
+            // nilai '' untuk penghubung `JOIN` saja.
+            'join' => 'LEFT', // optional
         ]
     ];
 }

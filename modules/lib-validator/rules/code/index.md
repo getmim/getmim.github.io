@@ -51,6 +51,7 @@ number  | rule      | description
 25.0    | config    | The valus is not in acceptable value
 25.1    | config    | The value is not in acceptable list values
 25.2    | config    | The value is not match with requested value
+26.1    | equals_to | Is not equals to references field
 
 Module-module lain yang juga mendaftarkan error code adalah sebagai berikut:
 

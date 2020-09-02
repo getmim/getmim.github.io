@@ -14,6 +14,7 @@ saat ini.
 1. [date](#date)
 1. [email](#email)
 1. [empty](#empty)
+1. [equals_to](#equals_to)
 1. [in](#in)
 1. [ip](#ip)
 1. [json](#json)
@@ -129,6 +130,16 @@ Memastikan suatu nilai harus falsy atau bukan.
 ```php
 // ...
     'empty' => false
+// ...
+```
+
+### equals_to
+
+Memastikan nilai yang dimasukan sama dengan nilai properti lain.
+
+```php
+// ...
+    'equals_to' => 'other_field_name'
 // ...
 ```
 
