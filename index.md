@@ -222,6 +222,7 @@ layout: page
         1. Authorizer
             1. [Basic](/modules/lib-user/authorizer/lib-user-auth-basic/) ( lib-user-auth-basic )
             1. [Cookie](/modules/lib-user/authorizer/lib-user-auth-cookie/) ( lib-user-auth-cookie )
+                1. [Admin](/modules/lib-user/authorizer/lib-user-auth-cookie/admin-user-handshake/) ( admin-user-handshake )
                 1. [Handshake](/modules/lib-user/authorizer/lib-user-auth-cookie/site-user-handshake/) ( site-user-handshake )
                 1. [Site](/modules/lib-user/authorizer/lib-user-auth-cookie/site-user-login/) ( site-user-login )
             1. [Handshake](/modules/lib-user/authorizer/lib-user-auth-handshake/) ( lib-user-auth-handshake )
