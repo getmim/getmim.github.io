@@ -67,6 +67,14 @@ number | rule        | module           | description
 16.3.2 | upload-file | lib-upload       | File image width too big.
 16.4.1 | upload-file | lib-upload       | File image height too small.
 16.4.2 | upload-file | lib-upload       | File image height too big.
+27.0   | upload-file | lib-upload       | PHP Error: Unknown error
+27.1   | upload-file | lib-upload       | PHP Error: File size to big ( php.ini )
+27.2   | upload-file | lib-upload       | PHP Error: File size to big ( MAX_FILE_SIZE  )
+27.3   | upload-file | lib-upload       | PHP Error: Partially uploaded
+27.4   | upload-file | lib-upload       | PHP Error: No file uploaded
+27.5   | upload-file | lib-upload       | PHP Error: No /tmp dir
+27.6   | upload-file | lib-upload       | PHP Error: Unabel to write to disk
+27.7   | upload-file | lib-upload       | PHP Error: Blocked by extension
 17.0   | upload      | lib-upload       | File target not found.
 17.1   | upload      | lib-upload       | Target file not acceptable.
 18.0   | upload-list | lib-upload       | One or more file not found.
