@@ -26,6 +26,7 @@ Di bawah ini adalah perintah-perintah yang didukung oleh module ini secara defau
 Untuk mendukung perintah-perintah lainnya, silahkan memasang module yang bersangkutan.
 
 ```
+mim apps
 mim help
 mim version
 
@@ -36,6 +37,7 @@ mim app env (production|development|testing|...)
 mim app gitignore
 mim app init
 mim app install (module[ ...]) | -
+mim app list
 mim app module
 mim app remove (module[ ...]) | -
 mim app server
@@ -59,6 +61,7 @@ mim app worker pid
 
 mim module init
 mim module controller (name)
+mim module git
 mim module helper (name)
 mim module interface (name)
 mim module library (name)
