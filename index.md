@@ -66,7 +66,7 @@ layout: page
         1. [Admin](/modules/post/admin/) ( admin-post )
         1. [Api](/modules/post/api/) ( api-post )
         1. [Site](/modules/post/site/) ( site-post )
-        	1. [Site](/modules/post/site/index/) ( site-post-index )
+            1. [Site](/modules/post/site/index/) ( site-post-index )
         1. Children
             1. [Category](/modules/post/children/category/) ( post-category )
                 1. [Admin](/modules/post/children/category/admin/) ( admin-post-category )
@@ -103,8 +103,10 @@ layout: page
         1. [Site](/modules/profile/site/) ( site-profile )
         1. Children
             1. [Auth](/modules/profile/children/auth/) ( profile-auth )
+                1. [Site Login](/modules/profile/children/auth/site/) ( site-profile-login )
             1. [Gallery](/modules/profile/children/gallery/) ( profile-gallery )
                 1. [Admin](/modules/profile/children/gallery/admin/) ( admin-profile-gallery )
+                1. [Api](/modules/profile/children/gallery/api/) ( api-profile-gallery )
     1. [Slideshow](/modules/slideshow/) ( slideshow )
         1. [Admin](/modules/slideshow/admin/) ( admin-slideshow )
     1. [Static Page](/modules/static-page/) ( static-page )
