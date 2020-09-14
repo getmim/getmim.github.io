@@ -52,6 +52,7 @@ number  | rule      | description
 25.1    | config    | The value is not in acceptable list values
 25.2    | config    | The value is not match with requested value
 26.1    | equals_to | Is not equals to references field
+28.0    | file      | The value is not valid file upload
 
 Module-module lain yang juga mendaftarkan error code adalah sebagai berikut:
 

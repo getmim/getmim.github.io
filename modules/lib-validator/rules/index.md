@@ -15,6 +15,7 @@ saat ini.
 1. [email](#email)
 1. [empty](#empty)
 1. [equals_to](#equals_to)
+1. [file](#file)
 1. [in](#in)
 1. [ip](#ip)
 1. [json](#json)
@@ -140,6 +141,16 @@ Memastikan nilai yang dimasukan sama dengan nilai properti lain.
 ```php
 // ...
     'equals_to' => 'other_field_name'
+// ...
+```
+
+### file
+
+Memastikan field tersebut adalah referensi dari file upload.
+
+```php
+// ...
+    'file' => true
 // ...
 ```
 

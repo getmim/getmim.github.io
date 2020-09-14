@@ -84,6 +84,7 @@ layout: page
         1. Children
             1. [Category](/modules/product/children/category/) ( product-category )
                 1. [Admin](/modules/product/children/category/admin/) ( admin-product-category )
+                1. [Api](/modules/product/children/category/api/) ( api-product-category )
                 1. [Site](/modules/product/children/category/site/) ( site-product-category )
                 1. [Children]
                     1. [Color](/modules/product/children/category/children/color/) ( product-category-color )
@@ -109,6 +110,7 @@ layout: page
                 1. [Api](/modules/profile/children/gallery/api/) ( api-profile-gallery )
     1. [Slideshow](/modules/slideshow/) ( slideshow )
         1. [Admin](/modules/slideshow/admin/) ( admin-slideshow )
+        1. [Api](/modules/slideshow/api/) ( api-slideshow )
     1. [Static Page](/modules/static-page/) ( static-page )
         1. [Admin](/modules/static-page/admin/) ( admin-static-page )
         1. [Api](/modules/static-page/api/) ( api-static-page )
@@ -146,6 +148,7 @@ layout: page
         1. [Setting](/modules/admin/setting/) ( admin-setting )
     1. [App](/modules/lib-app/) ( lib-app )
     1. [Api](/modules/api/) ( api )
+        1. [Object Filter](/modules/api/api-object-filter/) ( site-object-filter )
     1. [Bank Provider](/modules/lib-bank-provider) ( lib-bank-provider )
     1. [Barcode](/modules/lib-barcode/) ( lib-barcode )
     1. [Cache Data](/modules/lib-cache/) ( lib-cache )
