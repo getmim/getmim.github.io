@@ -31,7 +31,3 @@ Semua filter di atas menerima property `query` untuk memfilter berdasrakan
 
 1. `parent` Filter berdasarkan parent object.
 1. `pfn` Gunakan field `name` untuk memfilter parent, atau `id` jika tidak diset.
-
-Endpoint yang didukung untuk sementara adalah:
-
-1. `admin`.
