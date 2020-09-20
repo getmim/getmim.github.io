@@ -106,6 +106,7 @@ layout: page
         1. Children
             1. [Auth](/modules/profile/children/auth/) ( profile-auth )
                 1. [Site Login](/modules/profile/children/auth/site/) ( site-profile-login )
+                1. [Site Recovery](/modules/profile/children/auth/site/recovery/) ( site-profile-recovery )
             1. [Gallery](/modules/profile/children/gallery/) ( profile-gallery )
                 1. [Admin](/modules/profile/children/gallery/admin/) ( admin-profile-gallery )
                 1. [Api](/modules/profile/children/gallery/api/) ( api-profile-gallery )
