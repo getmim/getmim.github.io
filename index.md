@@ -96,6 +96,8 @@ layout: page
                         1. [Admin](/modules/product/children/category/children/image/admin/) ( admin-product-category-image )
             1. [Collateral](/modules/product/children/collateral/) ( product-collateral )
                 1. [Admin](/modules/product/children/collateral/admin/) ( admin-product-collateral )
+            1. [Recommendation](/modules/product/children/recommendation/) ( product-recommendation )
+                1. [Api](/modules/product/children/recommendation/api/) ( api-product-recommendation )
             1. [Saved](/modules/product/children/saved/) ( product-saved )
             1. [Seen](/modules/product/children/seen/) ( product-last-seen )
             1. [Stat](/modules/product/children/stat/) ( product-stat )
