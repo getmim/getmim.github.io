@@ -100,6 +100,7 @@ layout: page
                 1. [Api](/modules/product/children/recommendation/api/) ( api-product-recommendation )
             1. [Saved](/modules/product/children/saved/) ( product-saved )
             1. [Seen](/modules/product/children/seen/) ( product-last-seen )
+                1. [Api](/modules/product/children/seen/api/) ( api-product-last-seen )
             1. [Stat](/modules/product/children/stat/) ( product-stat )
     1. [Profile](/modules/profile/) ( profile )
         1. [Admin](/modules/profile/admin/) ( admin-profile )
