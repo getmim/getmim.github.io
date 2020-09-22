@@ -177,6 +177,7 @@ layout: page
         1. [Type](/modules/lib-formatter/type/)
     1. [FTP](/modules/lib-ftp/) ( lib-ftp )
         1. [sFTP](/modules/lib-ftp/ssh/) ( lib-ftp-ssh )
+    1. [Google Cloud](/module/lib-google-cloud/) ( lib-google-cloud )
     1. [Image](/modules/lib-image/) ( lib-image )
     1. [IP Locator](/modules/lib-ip-locator/) ( lib-ip-locator )
         1. [IPDB](/modules/lib-ip-locator/lib-ip-db/) ( lib-ip-db )
