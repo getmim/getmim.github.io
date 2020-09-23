@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Api Profile Gallery"
+title:  "Site Profile Gallery"
 date:   2016-01-14 01:01:02 +0700
 categories: profile profile-gallery api
 ---
@@ -10,5 +10,5 @@ categories: profile profile-gallery api
 Jalankan perintah di bawah di folder aplikasi:
 
 ```
-mim app install api-profile-gallery
+mim app install site-profile-gallery
 ```
