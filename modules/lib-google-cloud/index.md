@@ -25,11 +25,6 @@ yang bisa digunakan untuk menggenerasi OAuth2 access token google cloud:
 use LibGoogleCloud\Library\Auth;
 
 $scope = 'https://www.googleapis.com/auth/devstorage.full_control';
-$token = Auth::get($scope);
+$cert  = '/path/to/credentials.json';
+$token = Auth::get($cert, $scope);
 ```
-
-Module ini menggunakan library `lib-jwt`, pastikan menambahkan file `.json`
-client service google di folder `./etc/cert/lib-google-cloud.json`, dan file
-`./etc/cert/lib-jwt/(private|public).pem`. Silahkan mengacu pada library
-tersebut cara menggenerasi file tersebut. Nilai dari file `private.pem` diambil
-dari file `.json` client service google.

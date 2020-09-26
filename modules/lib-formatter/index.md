@@ -90,7 +90,7 @@ return [
         'handlers' => [
             '/name/' => [
                 'handler' => 'Class::method',
-                'collective' => false // true // $field,
+                'collective' => false // true | '_MD5_' | $field,
                 'field' => 'id', // for collective=true|$field only
             ]
         ]
@@ -104,8 +104,14 @@ satu per satu. Metode ini cocok untuk penanganan multiple object properti dalam 
 eksekusi seperti pengambilan data dari db untuk meminimalisir eksekusi query database.
 
 Nilai `true` pada properti `collective` akan menggunakan nilai dari properti itu sendiri
-sebagai key array pengambilan data hasil proses oleh formatter. Jika mengharapkan properti
-lain sebagai key array, gunakan nama properti tersebut sebagai nilai dari properti ini.
+sebagai key array pengembalian data hasil proses oleh formatter. Jika mengharapkan properti
+lain dari object tersebut sebagai key array, gunakan nama properti tersebut sebagai nilai
+dari properti ini.
+
+Selain nilai `true` dan nama field, properti tersebut juga menerima nilai string `_MD5_`
+yang mengharapkan nilai pengembalian formatter menggunakan struktur `md5(value) => proc(value)`.
+Metode seperti ini cocok jika konten yang akan diproses terlalu panjang untuk dijadikan
+array key.
 
 ### collective
 

@@ -36,7 +36,7 @@ return [
 Untuk membuatkan file handler, pastikan class tersebut mengimplementasikan
 interface `LibMedia\Iface\Handler`. Dan tambahkan method seperti di bawah:
 
-### get(object $file): ?object
+### get(object $opt): ?object
 
 Fungsi yang akan dipanggil untuk menggenerasi file compresi, dan resizes. Method
 ini akan di panggil dengan parameter seperti di bawah:
@@ -44,12 +44,14 @@ ini akan di panggil dengan parameter seperti di bawah:
 ```php
 $params = (object)[
     'file' => 'aa/bb/cc/dd/filename.jpg',
-    'size' => [
+    'size' => [ // optional
         'width' => 100,
         'height' => 150
     ]
 ];
 ```
+
+Properti `size` adalah optional, dan mungkin tidak ada.
 
 Fungsi tersebut diharapkan mengembalikan data seperti berikut:
 
