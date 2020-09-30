@@ -115,6 +115,7 @@ layout: page
                 1. [Admin](/modules/profile/children/gallery/admin/) ( admin-profile-gallery )
                 1. [Api](/modules/profile/children/gallery/api/) ( api-profile-gallery )
                 1. [Site](/modules/profile/children/gallery/site/) ( site-profile-gallery )
+                    1. [Editor](/modules/profile/children/gallery/site/editor/) ( site-profile-gallery-editor )
     1. [Slideshow](/modules/slideshow/) ( slideshow )
         1. [Admin](/modules/slideshow/admin/) ( admin-slideshow )
         1. [Api](/modules/slideshow/api/) ( api-slideshow )
