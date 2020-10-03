@@ -6,7 +6,7 @@ categories: ext-module lib-model
 ---
 
 Semua file migrate masing-masing module tersimpan di folder module masing-masing dengan nama
-`modules/[name]/migrate.php`, dengan isi sebagai berikut:
+`modules/[name]/migrate.php` dan/atau `app/[name]/migrate.php`, dengan isi sebagai berikut:
 
 ```php
 return [
@@ -188,7 +188,7 @@ interface `LibModel\Iface\Migrator`. Class ini akan dibuat dengan perintah seper
 $migrator = new LibModule\Library\Migrator('LibModule\\Model\\Name', $data);
 ```
 
-Parameter yang dikirimkan adalah nama model yang peri di migrate, dan array daftar
+Parameter yang dikirimkan adalah nama model yang perlu di migrate, dan array daftar
 konfigurasi model, seperti fields, indexes dan preset data. Masing-masing migrator
 harus memiliki method sebagai berikut:
 

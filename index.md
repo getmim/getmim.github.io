@@ -109,6 +109,7 @@ layout: page
         1. [Site](/modules/profile/site/) ( site-profile )
         1. Children
             1. [Auth](/modules/profile/children/auth/) ( profile-auth )
+                1. [Media](/modules/profile/children/auth/media/) ( profile-media )
                 1. [Site Login](/modules/profile/children/auth/site/) ( site-profile-login )
                 1. [Site Recovery](/modules/profile/children/auth/site/recovery/) ( site-profile-recovery )
             1. [Gallery](/modules/profile/children/gallery/) ( profile-gallery )
