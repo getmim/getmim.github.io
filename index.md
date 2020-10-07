@@ -112,6 +112,7 @@ layout: page
                 1. [Media](/modules/profile/children/auth/media/) ( profile-media )
                 1. [Site Login](/modules/profile/children/auth/site/) ( site-profile-login )
                 1. [Site Recovery](/modules/profile/children/auth/site/recovery/) ( site-profile-recovery )
+                1. [Site SignUp](/modules/profile/children/auth/site/signup/) ( site-profile-signup )
             1. [Gallery](/modules/profile/children/gallery/) ( profile-gallery )
                 1. [Admin](/modules/profile/children/gallery/admin/) ( admin-profile-gallery )
                 1. [Api](/modules/profile/children/gallery/api/) ( api-profile-gallery )
@@ -208,6 +209,7 @@ layout: page
     1. [Notification](/modules/lib-notif) ( lib-notif )
         1. [Pusher](/modules/lib-notif/lib-notif-pusher/) ( lib-notif-pusher )
         1. [Google FCM](/modules/lib-notif/lib-notif-fcm/) ( lib-notif-fcm )
+    1. [OTP](/modules/lib-otp/) ( lib-otp )
     1. [Pagination](/modules/lib-pagination/) ( lib-pagination )
     1. PSR
         1. [PSR-03/Log](/modules/psr/lib-psr-3/) ( lib-psr-3 )
