@@ -29,6 +29,9 @@ return [
         '/path/to/file/' => true
     ],
     'shared' => '/path/to/shared/modules/',
+    'envMap' => [
+        'SITE_SECURE' => 'gates.site.secure'
+    ],
     
     'gates' => [
         'site' => [
@@ -88,6 +91,12 @@ Menggabungkan konfig dari file lain ke dalam konfigurasi aplikasi.
 
 Adalah folder dimana module-module shared disimpan. Semua module yang ada di folder
 tersebut akan di-load ke dalam aplikasi, dan diperlakukan sebagai module internal.
+
+### envMap
+
+Inject konfigurasi aplikasi dari system env ( `getenv` ). Fungsi ini menerima nilai
+array key sebagai system env, dan nilai adalah config key yang dipisahkan dengan `.`
+untuk sub-config.
 
 ### gates
 
