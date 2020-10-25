@@ -2,7 +2,8 @@
 layout: post
 title:  "Api Me"
 date:   2016-01-28 01:01:04 +0700
-categories: api admin lib-user
+categories: api lib-user
+---
 
 Adalah module untuk memenej akun user yang sedang login dari API.
 
@@ -31,6 +32,6 @@ Mengambil informasi tentang user yang sedang login.
 
 Endpoint untuk mengubah password user. Menerima parameters `old`, `new`, dan `retype`.
 
-### `PUT APIHOST/me/proifle`
+### `PUT APIHOST/me/profile`
 
 Mengubah data profile user. Secara default hanya menerima `name`, `fullname`, dan `avatar`.

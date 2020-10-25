@@ -106,6 +106,7 @@ layout: page
     1. [Profile](/modules/profile/) ( profile )
         1. [Admin](/modules/profile/admin/) ( admin-profile )
         1. [API](/modules/profile/api/) ( api-profile )
+            1. [SignUp](/modules/profile/api/signup/) ( api-profile-signup )
         1. [Site](/modules/profile/site/) ( site-profile )
         1. Children
             1. [Auth](/modules/profile/children/auth/) ( profile-auth )
@@ -241,7 +242,8 @@ layout: page
         1. [AWS](/modules/lib-upload/lib-upload-aws/) ( lib-upload-aws )
     1. [User](/modules/lib-user/) ( lib-user )
         1. [Api](/modules/lib-user/api/) ( api-user )
-            1. [Me](/module/lib-user/api/me/) ( api-me )
+            1. [Me](/modules/lib-user/api/me/) ( api-me )
+            1. [Register](/modules/lib-user/api/register/) ( api-user-register )
         1. [Admin Me Setting](/modules/lib-user/admin/admin-me-setting/) ( admin-me-setting )
             1. [Admin Me Recovery](/modules/lib-user/admin/admin-me-recovery/) ( admin-me-recovery )
         1. Authorizer
@@ -265,7 +267,8 @@ layout: page
                     1. [Phone](/modules/lib-user/handler/lib-user-main/children/lib-user-main-phone/) ( lib-user-main-phone )
                     1. [Type](/modules/lib-user/handler/lib-user-main/children/lib-user-main-type/) ( lib-user-main-type )
         1. [Site](/modules/lib-user/site/) ( site-user )
-            1. [Register](/modules/lib-user/site/children/site-user-register) ( site-user-register )
+            1. [Recovery](/modules/lib-user/site/children/site-user-recovery/) ( site-user-recovery )
+            1. [Register](/modules/lib-user/site/children/site-user-register/) ( site-user-register )
         1. Other
             1. [Action Log](/modules/lib-user/other/lib-action-log/) ( lib-action-log )
             1. [Last Seen](/modules/lib-user/other/lib-user-last-seen/) ( lib-user-last-seen )
