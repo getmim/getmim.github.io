@@ -150,10 +150,11 @@ layout: page
                 1. [Admin](/modules/venue/children/gallery/admin/) ( admin-venue-gallery )
 
 1. Module Umum
-    1. [Address](/modules/lib-address) ( lib-address )
-        1. [Admin](/modules/lib-address/admin) ( admin-address )
-            1. [Admin Me Setting](/modules/lib-address/admin/me-setting) ( admin-me-setting-address )
-        1. [User](/modules/lib-address/user) ( user-address )
+    1. [Address](/modules/lib-address/) ( lib-address )
+        1. [Admin](/modules/lib-address/admin/) ( admin-address )
+        1. [User](/modules/lib-address/user/) ( user-address )
+            1. [Admin](/modules/lib-address/user/admin-me-setting-address/) ( admin-me-setting-address )
+            1. [Api](/modules/lib-address/user/api-user-address/) ( api-user-address )
     1. [Admin](/modules/admin/) ( admin )
         1. [UI](/modules/admin/ui/) ( admin-ui )
         1. [Setting](/modules/admin/setting/) ( admin-setting )
@@ -243,6 +244,7 @@ layout: page
     1. [User](/modules/lib-user/) ( lib-user )
         1. [Api](/modules/lib-user/api/) ( api-user )
             1. [Me](/modules/lib-user/api/me/) ( api-me )
+            1. [Register](/modules/lib-user/api/recovery/) ( api-user-recovery )
             1. [Register](/modules/lib-user/api/register/) ( api-user-register )
         1. [Admin Me Setting](/modules/lib-user/admin/admin-me-setting/) ( admin-me-setting )
             1. [Admin Me Recovery](/modules/lib-user/admin/admin-me-recovery/) ( admin-me-recovery )
