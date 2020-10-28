@@ -107,6 +107,7 @@ layout: page
         1. [Admin](/modules/profile/admin/) ( admin-profile )
         1. [API](/modules/profile/api/) ( api-profile )
             1. [SignUp](/modules/profile/api/signup/) ( api-profile-signup )
+            1. [Recovery](/modules/profile/api/recovery/) ( api-profile-recovery )
         1. [Site](/modules/profile/site/) ( site-profile )
         1. Children
             1. [Auth](/modules/profile/children/auth/) ( profile-auth )

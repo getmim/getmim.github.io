@@ -36,12 +36,12 @@ mim app config
 mim app env (production|development|testing|...)
 mim app gitignore
 mim app init
-mim app install (module[ ...]) | -
+mim app install (module[ ...])
 mim app list
 mim app module
-mim app remove (module[ ...]) | -
+mim app remove (module[ ...])
 mim app server
-mim app update (module[ ...]) | -
+mim app update (module[ ...])
 
 # Jika module cli-app-model terinstall
 
@@ -68,8 +68,8 @@ mim module library (name)
 mim module middleware (name)
 mim module model (name)
 mim module service (name)
-mim module watch (target[ ...])
-mim module sync (target[ ...])
+mim module watch (host|dir)
+mim module sync (host|dir)
 
 # Jika module cli-compress terinstall
 
