@@ -106,7 +106,9 @@ layout: page
     1. [Profile](/modules/profile/) ( profile )
         1. [Admin](/modules/profile/admin/) ( admin-profile )
         1. [API](/modules/profile/api/) ( api-profile )
+            1. [Login](/modules/profile/api/login/) ( api-profile-login )
             1. [SignUp](/modules/profile/api/signup/) ( api-profile-signup )
+            1. [Setting](/modules/profile/api/setting/) ( api-profile-setting )
             1. [Recovery](/modules/profile/api/recovery/) ( api-profile-recovery )
         1. [Site](/modules/profile/site/) ( site-profile )
         1. Children
@@ -278,6 +280,7 @@ layout: page
             1. [User Perm](/modules/lib-user/other/lib-user-perm/) ( lib-user-perm )
                 1. [Admin](/modules/lib-user/other/lib-user-perm/admin/) ( admin-user-perm )
             1. [Recovery](/modules/lib-user/other/lib-user-recovery/) ( lib-user-recovery )
+            1. [Social](/modules/lib-user/other/user-social/) ( user-social )
             1. [Verification](/modules/lib-user/other/lib-user-verification/) ( lib-user-verification )
                 1. [Site](/modules/lib-user/other/lib-user-verification/site/) ( site-user-verification )
     1. [Validator](/modules/lib-validator/) ( lib-validator )
