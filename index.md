@@ -267,6 +267,7 @@ layout: page
                     1. [Address](/modules/lib-user/handler/lib-user-main/admin/address) ( admin-user-address )
                 1. Children
                     1. [About](/modules/lib-user/handler/lib-user-main/children/lib-user-main-about/) ( lib-user-main-about )
+                    1. [Birtdate](/modules/lib-user/handler/lib-user-main/children/lib-user-main-bdate/) ( lib-user-main-bdate )
                     1. [Contributor](/modules/lib-user/handler/lib-user-main/children/lib-user-main-contributor/) ( lib-user-main-contributor )
                     1. [Email](/modules/lib-user/handler/lib-user-main/children/lib-user-main-email/) ( lib-user-main-email )
                     1. [Gender](/modules/lib-user/handler/lib-user-main/children/lib-user-main-gender/) ( lib-user-main-gender )
