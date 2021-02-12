@@ -269,6 +269,7 @@ layout: page
                     1. [About](/modules/lib-user/handler/lib-user-main/children/lib-user-main-about/) ( lib-user-main-about )
                     1. [Contributor](/modules/lib-user/handler/lib-user-main/children/lib-user-main-contributor/) ( lib-user-main-contributor )
                     1. [Email](/modules/lib-user/handler/lib-user-main/children/lib-user-main-email/) ( lib-user-main-email )
+                    1. [Gender](/modules/lib-user/handler/lib-user-main/children/lib-user-main-gender/) ( lib-user-main-gender )
                     1. [Phone](/modules/lib-user/handler/lib-user-main/children/lib-user-main-phone/) ( lib-user-main-phone )
                     1. [Type](/modules/lib-user/handler/lib-user-main/children/lib-user-main-type/) ( lib-user-main-type )
         1. [Site](/modules/lib-user/site/) ( site-user )
