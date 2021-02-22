@@ -123,7 +123,8 @@ return [
     // ...
     'libWorker' => [
         'concurency' => 10,
-        'phpBinary' => 'php'
+        'phpBinary' => 'php',
+        'keepResponse' => true
     ]
     // ...
 ];
@@ -131,6 +132,7 @@ return [
 
 1. `concurency` Total worker yang akan dijalankan untuk mengerjakan job.
 1. `phpBinary` Path ke php-cli jika php tidak tersedia di PATH OS.
+1. `keepResponse` Menyimpan semua execution log pada table `worker_result`.
 
 Jika melakukan perubahan pada aplikasi setelah worker berjalan, maka pastikan untuk merestart worker
 agar konfig tersebut digunakan.
@@ -154,6 +156,6 @@ Worker akan dipending dan dijalankan ulang jika router pekerja:
 1. Mengembalikan data yang tidak bisa di `json_decode`.
 1. Nilai `error` adalah `true`.
 
-Jika nilai yang dikembalikan oleh pekerja adalah `error: false`, maka job tersebut akan dijalankan lagi
-1 menit kemudian. Pekerja bisa menentukan lamanya job akan dijalankan lagi dengan mengeset properti `delay`
+Jika nilai yang dikembalikan oleh pekerja adalah `error: true`, maka job tersebut akan dijalankan lagi
+1 menit kemudian. Pekerja bisa menentukan delay job akan dijalankan lagi dengan mengeset properti `delay`
 dalam satuan detik.
