@@ -28,7 +28,7 @@ return [
                     'label' => 'Price Min',
                     'type' => 'number',
                     'rules' => [
-                        'number' => [
+                        'numeric' => [
                             'min' => 0
                         ]
                     ]
@@ -37,7 +37,7 @@ return [
                     'label' => 'Price Max',
                     'type' => 'number',
                     'rules' => [
-                        'number' => [
+                        'numeric' => [
                             'min' => 0
                         ]
                     ]
@@ -48,7 +48,7 @@ return [
                     'label' => 'Price Daily',
                     'type' => 'number',
                     'rules' => [
-                        'number' => [
+                        'numeric' => [
                             'min' => 0
                         ]
                     ]
@@ -57,7 +57,7 @@ return [
                     'label' => 'Price Weekly',
                     'type' => 'number',
                     'rules' => [
-                        'number' => [
+                        'numeric' => [
                             'min' => 0
                         ]
                     ]
@@ -66,7 +66,7 @@ return [
                     'label' => 'Price Monthly',
                     'type' => 'number',
                     'rules' => [
-                        'number' => [
+                        'numeric' => [
                             'min' => 0
                         ]
                     ]
@@ -75,7 +75,7 @@ return [
                     'label' => 'Price Anually',
                     'type' => 'number',
                     'rules' => [
-                        'number' => [
+                        'numeric' => [
                             'min' => 0
                         ]
                     ]
@@ -86,7 +86,7 @@ return [
                     'label' => 'Price',
                     'type' => 'number',
                     'rules' => [
-                        'number' => [
+                        'numeric' => [
                             'min' => 0
                         ]
                     ]

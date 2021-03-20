@@ -163,6 +163,11 @@ $lx = prop_as_key($l, 'id');
 // ]
 ```
 
+**put_service_value(array $map): array**
+
+Mengubah nilai suatu map value yang bernilai string dengan prefix `$` menjadi nilai
+dari service aplikasi.
+
 **to_attr(array $attrs): string**
 
 Mengkonversi nilai array menjadi string berbentuk atribut html.
