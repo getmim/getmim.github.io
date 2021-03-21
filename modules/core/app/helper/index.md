@@ -183,6 +183,10 @@ ke suatu route. Optionally tambahkan opsi `obj` untuk mengambil nilai
 dari object tersebut untuk mengganti nilai parameter route yang di awali
 dengan karakter `$`.
 
+**to_slug(string $str): string**
+
+Adalah fungsi untuk mengubah standar string menjadi berbentuk slug.
+
 **to_source($data, $space=0, $escape=true)**
 
 Mengubah object php menjadi nilai php string.
