@@ -258,6 +258,7 @@ layout: page
                 1. [Handshake](/modules/lib-user/authorizer/lib-user-auth-cookie/site-user-handshake/) ( site-user-handshake )
                 1. [Site](/modules/lib-user/authorizer/lib-user-auth-cookie/site-user-login/) ( site-user-login )
             1. [Google Authenticator](/modules/lib-user/authorizer/lib-user-auth-google-auth/) ( lib-user-auth-google-auth )
+            1. [Google LogIn](/modules/lib-user/authorizer/lib-user-auth-google-signin/) ( lib-user-auth-google-signin )
             1. [Handshake](/modules/lib-user/authorizer/lib-user-auth-handshake/) ( lib-user-auth-handshake )
             1. [JWT](/modules/lib-user/authorizer/lib-user-auth-jwt/) ( lib-user-auth-jwt )
             1. [OAuth](/modules/lib-user/authorizer/lib-user-auth-oauth/) ( lib-user-auth-oauth )
