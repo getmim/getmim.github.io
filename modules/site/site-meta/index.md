@@ -80,7 +80,7 @@ return [
             'pi_verification' => '',
 
             // is the theme responsive
-            'responsive' => true,
+            'viewport' => 'responsive',
 
             // include twitter js
             'tw_js' => true,
@@ -125,7 +125,7 @@ Jalankan perintah seperti di bawah pada head elemen html:
 
             // RSS Feed URL, optional
             'rss' => 'URL',
-            
+
             // List of schema.org in array format. recommended
             'schema.org' => [
                 [...],
