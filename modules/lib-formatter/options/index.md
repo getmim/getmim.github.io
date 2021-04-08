@@ -30,3 +30,15 @@ Mengubah nama properti menjadi nama lain setelah melakukan proses formatting yan
     '@rename' => 'field-other'
 ]
 ```
+
+### @default
+
+Menggunakan nilai default pada suatu properti jika properti tersebut tidak ada
+atau properti tersebut bernilai falsy.
+
+```php
+'field' => [
+    'type' => '...',
+    '@default' => 'default-value'
+]
+```
