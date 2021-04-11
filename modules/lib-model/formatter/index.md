@@ -5,7 +5,7 @@ date:   2016-01-23 01:01:02 +0700
 categories: ext-module lib-model
 ---
 
-Jika module `lib-formatter` terpasang, maka module ini menambahkan beberapa tipe format seperti di 
+Jika module `lib-formatter` terpasang, maka module ini menambahkan beberapa tipe format seperti di
 bawah yang bisa digunakan untuk mengambil data row tabel lain untuk mengisi suatu properti objek.
 
 ## Tipe Format
@@ -108,6 +108,28 @@ tambahan sebagai berikut:
 
 **PENTING** Objek yang sedang di format harus memiliki properti `id` yang unik.
 
+### children
+
+Mengambil semua object dari tabel lain dimana nilai dari suatu kolom table lain
+tersebut adalah `id` dari object yang sedang di format.
+
+**PENTING** Objek yang sedang di format harus memiliki properti `id` yang unik.
+
+```php
+'field' => [
+    'type' => 'children',
+    'model' => [
+        'name' => 'Children\\Model\\Name',
+        'field' => 'parent'
+    ]
+    // as of type object
+]
+```
+
+Pada contoh di atas, properti `field` akan ditambahkan ke object yang sedang
+diformat, dimana nilai dari properti tersebut diambil dari model `Children\Model\Name`
+dengan nilai kolom `parent` table children tersebut adalah properti `id` dari
+object yang sedang di format.
 
 ### object
 
