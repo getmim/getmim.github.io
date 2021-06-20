@@ -72,6 +72,7 @@ layout: page
                 1. [Admin](/modules/post/children/category/admin/) ( admin-post-category )
                 1. [Api](/modules/post/children/category/api/) ( api-post-category )
                 1. [Site](/modules/post/children/category/site/) ( site-post-category )
+                1. [Logo](/modules/post/children/category/logo/) ( post-category-logo )
             1. [Gallery](/modules/post/children/gallery/) ( post-gallery )
                 1. [Admin](/modules/post/children/gallery/admin/) ( admin-post-gallery )
             1. [Statistic](/modules/post/children/statistic/) ( post-statistic )
