@@ -67,6 +67,7 @@ layout: page
         1. [Api](/modules/post/api/) ( api-post )
         1. [Site](/modules/post/site/) ( site-post )
             1. [Site](/modules/post/site/index/) ( site-post-index )
+            1. [Site](/modules/post/site/amp/) ( site-post-amp )
         1. Children
             1. [Category](/modules/post/children/category/) ( post-category )
                 1. [Admin](/modules/post/children/category/admin/) ( admin-post-category )
