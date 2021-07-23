@@ -76,6 +76,8 @@ layout: page
                 1. [Logo](/modules/post/children/category/logo/) ( post-category-logo )
             1. [Gallery](/modules/post/children/gallery/) ( post-gallery )
                 1. [Admin](/modules/post/children/gallery/admin/) ( admin-post-gallery )
+            1. [Plagiarism](/modules/post/children/plagiarism/) ( post-plagiarism )
+                1. [Plagiarism](/modules/post/children/plagiarism/admin/) ( admin-post-plagiarism )
             1. [Statistic](/modules/post/children/statistic/) ( post-statistic )
                 1. [Api](/modules/post/children/statistic/api/) ( api-post-statistic )
             1. [Website](/modules/post/children/website/) ( post-website )
