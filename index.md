@@ -113,6 +113,8 @@ layout: page
                 1. [Admin](/modules/product/children/admin/) ( admin-product-stock )
             1. [Tax](/modules/product/children/tax/) ( product-tax )
                 1. [Admin](/modules/product/children/tax/admin/) ( admin-product-tax )
+            1. [Variant](/modules/product/children/variant/) ( product-variant )
+                1. [Admin](/modules/product/children/variant/admin/) ( admin-product-variant )
     1. [Profile](/modules/profile/) ( profile )
         1. [Admin](/modules/profile/admin/) ( admin-profile )
         1. [API](/modules/profile/api/) ( api-profile )
