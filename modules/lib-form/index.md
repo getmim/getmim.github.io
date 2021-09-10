@@ -130,6 +130,10 @@ Menggenerasi html input berdasarkan konfigurasi field pada form rules. Fungsi in
 menggenerasi theme file di `./theme/[GATE]/form/field/[type].phtml` dengan tembusan
 parameter `field`, `options`, `value`, dan `form`.
 
+### fieldExists(string $name): bool
+
+Mengecek jika suatu field ada pada form ini.
+
 ### getError(string $field): ?object
 
 Mengambil informasi error field, jika ada.
