@@ -106,6 +106,7 @@ layout: page
                 1. [Admin](/modules/product/children/collateral/admin/) ( admin-product-collateral )
             1. [Purchase](/modules/product/children/purchase/) ( purchase )
                 1. [Admin](/modules/product/children/purchase/admin/) ( admin-purchase )
+                1. [Admin](/modules/product/children/purchase/api/) ( api-purchase )
                 1. [CLI](/modules/product/children/purchase/cli/) ( cli-purchase-delivery )
             1. [Recommendation](/modules/product/children/recommendation/) ( product-recommendation )
                 1. [Api](/modules/product/children/recommendation/api/) ( api-product-recommendation )
