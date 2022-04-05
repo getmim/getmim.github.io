@@ -87,6 +87,7 @@ layout: page
         1. [Api](/modules/product/api) ( api-product )
         1. [Site](/modules/product/site) ( site-product )
         1. Children
+            1. [Brand](/modules/product/children/brand/) ( product-brand )
             1. [Cart](/modules/product/children/cart/) ( cart )
                 1. [Api](/modules/product/children/cart/api/) ( api-cart )
             1. [Category](/modules/product/children/category/) ( product-category )
@@ -106,8 +107,11 @@ layout: page
                 1. [Admin](/modules/product/children/collateral/admin/) ( admin-product-collateral )
             1. [Purchase](/modules/product/children/purchase/) ( purchase )
                 1. [Admin](/modules/product/children/purchase/admin/) ( admin-purchase )
-                1. [Admin](/modules/product/children/purchase/api/) ( api-purchase )
-                1. [CLI](/modules/product/children/purchase/cli/) ( cli-purchase-delivery )
+                1. [Api](/modules/product/children/purchase/api/) ( api-purchase )
+                1. Children
+                    1. [Delivery](/modules/product/children/purchase/children/delivery) ( purchase-delivery )
+                        1. [CLI](/modules/product/children/purchase/children/delivery/cli/) ( cli-purchase-delivery )
+                    1. [Payment](/modules/product/children/purchase/children/payment) ( purchase-payment )
             1. [Recommendation](/modules/product/children/recommendation/) ( product-recommendation )
                 1. [Api](/modules/product/children/recommendation/api/) ( api-product-recommendation )
             1. [Saved](/modules/product/children/saved/) ( product-saved )
