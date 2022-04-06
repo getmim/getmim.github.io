@@ -88,6 +88,7 @@ layout: page
         1. [Site](/modules/product/site) ( site-product )
         1. Children
             1. [Brand](/modules/product/children/brand/) ( product-brand )
+                1. [Admin](/modules/product/children/brand/admin/) ( admin-product-brand )
             1. [Cart](/modules/product/children/cart/) ( cart )
                 1. [Api](/modules/product/children/cart/api/) ( api-cart )
             1. [Category](/modules/product/children/category/) ( product-category )
