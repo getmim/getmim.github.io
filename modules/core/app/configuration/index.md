@@ -50,6 +50,9 @@ return [
                 ]
             ]
         ]
+    ],
+    'repos' => [
+        '/home/user/mim'
     ]
 ];
 ```
@@ -112,6 +115,11 @@ Penjelasan lebih details tentang gate ada di [Gate Aplikasi](/modules/core/gates
 
 Jika nilai `gates.[gate].secure` tidak di set, makan nilai `secure` dari aplikasi
 akan digunakan.
+
+### repos
+
+Konfigurasi ini menyimpan daftar folder dimana module-module local disimpan untuk
+mempermudah proses install atau update module-module lokal.
 
 ## Menindih Konfigurasi Module
 
