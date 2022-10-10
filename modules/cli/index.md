@@ -74,4 +74,10 @@ mim module sync (host|dir)
 # Jika module cli-compress terinstall
 
 mim compress (all|gzip|brotli|webp) (file[ ...])
+
+# Jika module cli-to terinstall
+
+mim to /name/
+mim to add
+mim to remove /name/
 ```
