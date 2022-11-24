@@ -74,3 +74,53 @@ Memastikan semua data yang diberikan ( dalam format array ) ada di database.
 ```
 
 Tipe ini memastikan semua data yang dikirim ada di database.
+
+## Dynamic Where
+
+Masing-masing validator rule memiliki custom property `where` untuk memastikan
+data yang terpilih memenuhi kriteria tertentu. Kondisi where disini menerima nilai
+dinamik yang memungkinkan data tersebut diambil dari body yang dikirim atau dari
+nilai properti suatu service.
+
+### Sumber Service
+
+Gunakan prefix `_$` yang dilanjutkan dengan nama service dan property service
+tersebut yang dipisahkan oleh karakter `.` untuk mengambil nilai service yang
+akan dijadikan nilai kondisi where. Contohnya:
+
+```php
+// ...
+    'exists' => [
+        'model' => '...',
+        'field' => '...',
+        'where' => [
+            // $this->user->id
+            'user' => '_$.user.id',
+
+            // $this->req->param.parent
+            'parent' => '_$.req.param.parent',
+
+            // __op != $this->req->param.status
+            'status' => [
+                '__op','!=', '_$.req.param.status'
+            ]
+        ]
+    ]
+// ...
+```
+
+### Sumber Body
+
+Gunakan prefix `_#` yang dilanjutkan dengan nama field yang dipisahkan oleh karakter
+`.` untuk menggunakan nilai tersebut sebagai kondisi where. Contohnya:
+
+```php
+    'exists' => [
+        'model' => '...',
+        'field' => '...',
+        'where' => [
+            // $this->req->getBody().parent
+            'parent' => '_#.parent'
+        ]
+    ]
+```
