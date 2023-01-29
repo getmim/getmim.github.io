@@ -210,9 +210,13 @@ Menguban nilai menjadi object text
 
 ```php
 'field' => [
-    'type' => 'text'
+    'type' => 'text',
+    'default' => 'DEFAULT VALUE' // optional
 ]
 ```
+
+Opsi `default` akan digunakan sebagai pengganti nilai field jika nilai yang sekarang
+adalah falsy
 
 Object ini kemudian memiliki properti/method sebagai berikut:
 
