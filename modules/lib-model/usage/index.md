@@ -9,6 +9,36 @@ categories: ext-module lib-model
 
 Di bawah ini adalah daftar semua method yang bisa digunakan dari sebuah model:
 
+1. [autocommit](#autocommitbool-mode-string-connwrite-bool)
+1. [avg](#avgstring-field-array-where-intdouble)
+1. [commit](#commitstring-connwrite-bool)
+1. [count](#countarray-where-int)
+1. [countGroup](#countgroupstring-field-array-where-array)
+1. [create](#createarray-row-bool-ignorefalse-int)
+1. [createMany](#createmanyarray-rows-bool-ignorefalse-bool)
+1. [dec](#decarray-fields-array-where-bool)
+1. [escape](#escapestring-str-string)
+1. [getOne](#getonearray-where-array-orderidfalse-object)
+1. [get](#getarray-where-int-rpp0-int-page1-array-orderidfalse-array)
+1. [getConnection](#getconnectionstring-targetread)
+1. [getConnectionName](#getconnectionnamestring-targetread-string)
+1. [getDBName](#getdbnamestring-targetread-string)
+1. [getDriver](#getdriver-string)
+1. [getModel](#getmodel-string)
+1. [getTable](#gettable-string)
+1. [inc](#incarray-fields-array-where-bool)
+1. [lastError](#lasterror-string)
+1. [lastId](#lastid-int)
+1. [lastQuery](#lastquery-string)
+1. [max](#maxstring-field-array-where-int)
+1. [min](#minstring-field-array-where-intdouble)
+1. [remove](#removearray-where-bool)
+1. [rollback](#rollbackstring-connwrite-bool)
+1. [set](#setarray-fields-array-where-bool)
+1. [sum](#sumstring-field-array-where-intdouble)
+1. [sumFs](#sumfsarray-fields-array-where-array)
+1. [truncate](#truncatestring-targetwrite-bool)
+
 ### autocommit(bool $mode, string $conn='write'): bool;
 
 Menyalakan atau mematikan aksi autocommit pada database, hanya bisa digunakan 
@@ -134,7 +164,7 @@ resource koneksi ke database.
 $mysql = Model::getConnectionName('write');
 ```
 
-### public function getDBName(string $target='read'): ?string;
+### getDBName(string $target='read'): ?string;
 
 Mengambil nama database untuk suatu suatu model pada target koneksi.
 
