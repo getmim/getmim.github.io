@@ -242,6 +242,7 @@ layout: page
         1. [Pusher](/modules/lib-notif/lib-notif-pusher/) ( lib-notif-pusher )
         1. [Google FCM](/modules/lib-notif/lib-notif-fcm/) ( lib-notif-fcm )
     1. [OTP](/modules/lib-otp/) ( lib-otp )
+        1. [Admin OTP](/modules/lib-otp/admin/) ( admin-otp )
     1. [Pagination](/modules/lib-pagination/) ( lib-pagination )
     1. PSR
         1. [PSR-03/Log](/modules/psr/lib-psr-3/) ( lib-psr-3 )
