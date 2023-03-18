@@ -26,7 +26,8 @@ Mengubah nilai menjadi beberapa object dari database:
 ```
 
 Semua opsi dan keterangan yang di format ini sama dengan format type `object`. Dengan tambahan
-opsi `separator` untuk menentukan pemisah antar masing-masing identitas tabel.
+opsi `separator` untuk menentukan pemisah antar masing-masing identitas value, nilai ini juga
+menerima nilai `json` yang akan menggunakan fungsi `json_decode` sebagai pemisah nilai.
 
 Tipe ini mengharapkan nilai properti suatu object yang di format adalah identitas pengenal dari
 tabel lain yang dipisahkan oleh suatu karakter. Format tipe ini akan mengubah nilai properti menjadi
