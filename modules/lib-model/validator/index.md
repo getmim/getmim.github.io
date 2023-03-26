@@ -8,6 +8,10 @@ categories: ext-module lib-model
 Jika module `lib-validator` terpasang, maka module ini mendaftarkan tipe-tipe validasi
 seperti di bawah:
 
+1. [unique](#unique)
+2. [exists](#exists)
+3. [exists-list](#exists-list)
+
 ## unique
 
 ```php
@@ -20,8 +24,10 @@ seperti di bawah:
 // ...
 ```
 
-Struktur di atas memastikan data yang disubmit user tidak ada pada model `LibModule\Model\Name`
-pada kolom `username`. Jika data tersebut ada di tabel, maka error `14.0` akan dikembalikan.
+Struktur di atas memastikan data yang disubmit user tidak ada pada model
+`LibModule\Model\Name` pada kolom `username`. Jika data tersebut ada di tabel,
+maka error `14.0` akan dikembalikan. Validator ini akan mengasumsikan nilai empty
+string sebagai valid.
 
 **Harus Unik Kecuali Sesuai Nilai Service**
 

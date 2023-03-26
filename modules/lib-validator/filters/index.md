@@ -11,6 +11,7 @@ Di bawah ini adalah daftar filters yang sudah ada di module init:
 
 1. `array` Mengubah nilai menjadi array.
 1. `boolean` Mengubah nilai menjadi boolean.
+1. `emptystr2null` Mengubah nilai empty string menjadi null.
 1. `float` Mengubah nilai menjadi float.
 1. `integer` Mengubah nilai menjadi integer.
 1. `lowercase` Mengubah nilai menjadi lowercase.
