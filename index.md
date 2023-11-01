@@ -267,6 +267,7 @@ layout: page
             1. [Admin](/modules/site/site-setting/admin/) ( admin-site-setting )
     1. [SMS Sender](/modules/lib-sms/) ( lib-sms )
         1. [Zenziva](/modules/lib-sms/lib-sms-zenziva/) ( lib-sms-zenziva )
+        1. [SMSViro](/modules/lib-sms/lib-sms-viro/) ( lib-sms-viro )
     1. [Slug History](/modules/lib-slug-history/) ( lib-slug-history )
     1. [Upload](/modules/lib-upload/) ( lib-upload )
         1. [FTP](/modules/lib-upload/lib-upload-ftp/) ( lib-upload-ftp )
