@@ -213,6 +213,7 @@ layout: page
     1. [Google Cloud](/modules/lib-google-cloud/) ( lib-google-cloud )
     1. Payment Method
         1. [GudangVoucher](/modules/lib-pg/lib-pg-gv/) ( lib-pg-gv )
+        1. [DUITKU](/modules/lib-pg/lib-pg-duitku/) ( lib-pg-duitku )
     1. [HTML5](/modules/lib-html5/)( lib-html5 )
     1. [Image](/modules/lib-image/) ( lib-image )
     1. [IP Locator](/modules/lib-ip-locator/) ( lib-ip-locator )
