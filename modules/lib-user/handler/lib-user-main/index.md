@@ -29,12 +29,19 @@ return [
                 'name'  => true,
                 'email' => true
             ]
+        ],
+        'verifier' => [
+            'name' => 'Auth\\By\\Otp'
         ]
     ]
 ];
 ```
 
-Bentuk konfigurasi seperti di atas menentukan properti apa dari user yang di perbolehkan
-login dengan. Dengan bentuk seperti di atas, user boleh login dengan properti `phone`, `name`,
-dan `email`. Pastikan properti tersebut sudah ada pada tabel `user`. Sercara default, user
-bisa login hanya dengan properti `name`.
+Konfigurasi `login` menentukan properti dari user yang digunakan untuk identifikasi
+user. Dengan bentuk seperti di atas, maka user boleh login dengan properti `phone`,
+`name`, dan `email`. Secara default, user hanya bisa login menggunakan properti
+`name`.
+
+Konfigurasi `verifier` adalah daftar handler yang akan dipanggil untuk verifikasi
+password user jika kombinasi identifier dan password gagal. Class handler harus
+implement interface `LibUserMain\Iface\Verifier`.

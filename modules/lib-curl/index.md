@@ -66,7 +66,13 @@ $opts = [
     'timeout' => 5,
 
     // download hasil curl ke file
-    'download' => '/tmp/file'
+    'download' => '/tmp/file',
+
+    // Basic auth
+    'user' => [
+        'name' => '',
+        'password' => ''
+    ]
 ];
 
 $result = Curl::fetch($opts);
