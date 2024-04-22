@@ -22,18 +22,32 @@ Tambahkan konfigurasi pada aplikasi sebagai berikut:
 ```php
 return [
     'libPgDuitku' => [
-        'merchantCode' => '',
-        'apiKey' => '',
-        'host' => ''
+        'payment' => [
+            'merchantCode' => '',
+            'apiKey' => '',
+            'host' => ''
+        ],
+        'transfer' => [
+            'userId' => '',
+            'email' => '',
+            'secretKey' => '',
+            'sandbox' => true | false
+        ]
     ]
 ];
 ```
 
 ## Classes
 
-### LibPgDuitku\Library\Duitku
+### LibPgDuitku\Library\Payment
 
 1. createBill($data)
 1. getInstruction($code)
 1. getPaymentMethods($amount)
 1. lastError()
+
+### LibPgDuitku\Library\Transfer
+
+1. check($data)
+1. online($data)
+1. inquiry($data)
