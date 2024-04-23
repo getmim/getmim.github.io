@@ -37,6 +37,23 @@ return [
 Bentuk konfigurasi seperti di atas akan memastikan route dengan nama `adminMeLogin` tidak
 akan melewati middleware `Auth`.
 
+## reCaptcha
+
+Tambahkan konfigurasi seperti di bawah untuk menambahkan google recaptcha pada
+halaman login
+
+```php
+return [
+    'admin' => [
+        'login' => [
+            'recaptcha' => true
+        ]
+    ]
+];
+```
+
+Pastikan module `lib-recaptcha` sudah terpasang.
+
 ## Site Handshake
 
 Untuk meneruskan session login user ke frontpage ketika klik `Back to site` dari halman
