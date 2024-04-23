@@ -54,6 +54,23 @@ return [
 
 Pastikan module `lib-recaptcha` sudah terpasang.
 
+## Google Authenticator
+
+Tambahkan konfigurasi seperti di bawah untuk menambahkan google authenticator
+pada halaman login
+
+```php
+return [
+    'admin' => [
+        'login' => [
+            'googleauthenticator' => true
+        ]
+    ]
+];
+```
+
+Pastikan module `lib-user-auth-google-auth` sudah terpasang.
+
 ## Site Handshake
 
 Untuk meneruskan session login user ke frontpage ketika klik `Back to site` dari halman
