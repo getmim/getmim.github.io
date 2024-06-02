@@ -51,3 +51,4 @@ return [
 1. check($data)
 1. online($data)
 1. inquiry($data)
+1. getBanks()
