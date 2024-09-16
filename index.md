@@ -46,6 +46,7 @@ layout: page
                 1. [Admin](/modules/event/children/profile/admin/) ( admin-event-profile )
             1. [Venue](/modules/event/children/venue/) ( event-venue )
                 1. [Admin](/modules/event/children/venue/admin/) ( admin-event-venue )
+    1. [FAQ](/modules/faq/) ( faq )
     1. [Music](/modules/music/) ( music )
         1. [Admin](/modules/music/admin/) ( admin-music )
         1. [Api](/modules/music/api/) ( api-music )
