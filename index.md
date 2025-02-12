@@ -209,6 +209,7 @@ layout: page
     1. [Formatter](/modules/lib-formatter/) ( lib-formatter )
         1. [Options](/modules/lib-formatter/options/)
         1. [Type](/modules/lib-formatter/type/)
+    1. [FPDF](/modules/lib-fpdf/) ( lib-fpdf )
     1. [FTP](/modules/lib-ftp/) ( lib-ftp )
         1. [sFTP](/modules/lib-ftp/ssh/) ( lib-ftp-ssh )
     1. [Google Cloud](/modules/lib-google-cloud/) ( lib-google-cloud )
