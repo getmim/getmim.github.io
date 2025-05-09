@@ -37,23 +37,6 @@ return [
 Bentuk konfigurasi seperti di atas akan memastikan route dengan nama `adminMeLogin` tidak
 akan melewati middleware `Auth`.
 
-## reCaptcha
-
-Tambahkan konfigurasi seperti di bawah untuk menambahkan google recaptcha pada
-halaman login
-
-```php
-return [
-    'admin' => [
-        'login' => [
-            'recaptcha' => true
-        ]
-    ]
-];
-```
-
-Pastikan module `lib-recaptcha` sudah terpasang.
-
 ## Google Authenticator
 
 Tambahkan konfigurasi seperti di bawah untuk menambahkan google authenticator
@@ -70,6 +53,38 @@ return [
 ```
 
 Pastikan module `lib-user-auth-google-auth` sudah terpasang.
+
+## reCaptcha
+
+Tambahkan konfigurasi seperti di bawah untuk menambahkan google recaptcha pada
+halaman login
+
+```php
+return [
+    'admin' => [
+        'login' => [
+            'recaptcha' => true
+        ]
+    ]
+];
+```
+
+## Captcha
+
+Tambahkan konfigurasi seperti di bawah untuk menambahkan captcha pada
+halaman login
+
+```php
+return [
+    'admin' => [
+        'login' => [
+            'captcha' => true
+        ]
+    ]
+];
+```
+
+Pastikan module `lib-recaptcha` sudah terpasang.
 
 ## Site Handshake
 

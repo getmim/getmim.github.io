@@ -198,6 +198,7 @@ layout: page
             1. [Custom Driver](/modules/lib-cache/driver/custom/)
     1. [Cache Output](/modules/lib-cache-output/) ( lib-cache-output )
     1. [Compressor](/modules/lib-compress/) ( lib-compress )
+    1. [Captcha](/modules/lib-captcha/) ( lib-captcha )
     1. [Courier](/modules/lib-courier) (lib-courier)
     1. [cURL](/modules/lib-curl/) ( lib-curl )
     1. [CreditCard](/modules/lib-creditcard/) ( lib-creditcard )
