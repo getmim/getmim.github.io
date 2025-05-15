@@ -186,6 +186,7 @@ layout: page
         1. [UI](/modules/admin/ui/) ( admin-ui )
         1. [Setting](/modules/admin/setting/) ( admin-setting )
     1. [App](/modules/lib-app/) ( lib-app )
+        1. [App](/modules/lib-app/admin/) ( admin-app )
     1. [Api](/modules/api/) ( api )
         1. [Object Filter](/modules/api/api-object-filter/) ( api-object-filter )
     1. [Bank Provider](/modules/lib-bank-provider) ( lib-bank-provider )
