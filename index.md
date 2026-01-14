@@ -208,6 +208,7 @@ layout: page
     1. [Email Subcription](/modules/lib-esub/) ( lib-esub )
         1. [Mailchimp](/modules/lib-esub/lib-esub-mailchimp/) ( lib-esub-mailchimp )
     1. [Enum](/modules/lib-enum/) ( lib-enum )
+    1. [Excel](/modules/lib-excel/) ( lib-excel )
     1. [Form](/modules/lib-form/) ( lib-form )
     1. [Formatter](/modules/lib-formatter/) ( lib-formatter )
         1. [Options](/modules/lib-formatter/options/)
