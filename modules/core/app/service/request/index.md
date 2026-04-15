@@ -251,6 +251,10 @@ dari `php://input`.
 
 Mengambil kondisi `where` dengan struktur model dari query string.
 
+### getCondDateRange(string $ds = 'ds', string $de = 'de', bool $time = true)
+
+Mengambil kondisi `where` untuk date range berdasarkan query string.
+
 ### getCookie(string $name, $def=null): ?string
 
 Method untuk mengambil nilai cookie yang dikirimkan bersamaan dengan request yang
