@@ -46,7 +46,7 @@ mim app update (module[ ...])
 # Jika module cli-app-model terinstall
 
 mim [--table=...,...] app migrate db
-mim [--table=...,...] app migrate schema (:dirname)
+mim [--table=...,...] app migrate schema
 mim [--table=...,...] app migrate start
 mim [--table=...,...] app migrate test
 
