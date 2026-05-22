@@ -31,8 +31,7 @@ return [
 use LibGoogleTranslate\Library\Translate;
 
 $text = 'How are you?';
-$from = 'en';
 $to = 'id';
 
-$res = Translate::translate($to, $text, $from);
+$res = Translate::translate($to, $text);
 ```
