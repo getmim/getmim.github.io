@@ -217,6 +217,7 @@ layout: page
     1. [FTP](/modules/lib-ftp/) ( lib-ftp )
         1. [sFTP](/modules/lib-ftp/ssh/) ( lib-ftp-ssh )
     1. [Google Cloud](/modules/lib-google-cloud/) ( lib-google-cloud )
+    1. [Google Translate](/modules/lib-google-translate/) ( lib-google-translate )
     1. Payment Method
         1. [GudangVoucher](/modules/lib-pg/lib-pg-gv/) ( lib-pg-gv )
         1. [DUITKU](/modules/lib-pg/lib-pg-duitku/) ( lib-pg-duitku )
